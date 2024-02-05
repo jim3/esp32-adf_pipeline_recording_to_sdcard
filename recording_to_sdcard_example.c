@@ -39,7 +39,8 @@
 
 #include "audio_idf_version.h"
 
-#define RECORD_TIME_SECONDS (60)
+// Note! To change the time of recording this is the only value needed to be adjusted. Make sure to re-build after saving. This should be all you need to do!
+#define RECORD_TIME_SECONDS (60) 
 static const char *TAG = "RECORD_TO_SDCARD";
 
 #if defined(CONFIG_CHOICE_OPUS_ENCODER)
