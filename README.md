@@ -1,6 +1,6 @@
 ### Espressif Audio Development Framework (ESP-ADF) Example Walk-Through
 
-This is a walk-through on how I got the `pipeline_recording_to_sdcard` example to work using the ESP32 ADF framework. For me at least, it was extremely difficult to get the example to work. The example is a good starting point for anyone who wants to record audio one of the ESP32 audio development boards. The example uses the following components:
+Honestly, this is here as a sort of backup copy of how I get the LyraT Mini audio dev board configured and able to run most of the examples on their GitHub repo at (https://github.com/espressif/esp-adf). This is also a quick walk-through on how I got the `pipeline_recording_to_sdcard` example to work using the ESP32 ADF framework and hopefully it might help someone else just starting out. For me at least, it was extremely difficult to get the examples to work mostly just due to how th docs were organized. That being said, the docs are *very* good. The example is a good starting point for anyone who wants to record audio on one of the ESP32 audio development boards. The example uses the following components:
 
 -   [ESP32 ADF GitHub Repository](https://github.com/espressif/esp-adf)
 -   [ESP32 LyraT Mini audio development board](https://www.espressif.com/en/products/hardware/esp32-lyrat-mini)
